@@ -26,7 +26,7 @@
           <% end %>
         <% end %>
         
-        <span class="inline-block ml-2 mr-1 text-xl font-bold align-middle">[</span>
+        <span class="inline-block ml-1 mr-1 text-xl font-bold align-middle">[</span>
         <%= for %{title: title, url: url, is_active: is_active} <- @siblings do %>
           /
           <%= if is_active do %>
@@ -35,7 +35,7 @@
             <a href="<%= url %>"><%= title %></a>
           <% end %>
         <% end %>
-        <span class="ml-1 mr-1 text-xl font-bold inline-block align-middle">]</span>
+        <span class="inline-block ml-1 mr-1 text-xl font-bold align-middle">]</span>
       </div>
 
       <div class="mt-4">
@@ -59,10 +59,9 @@
         <a href="/about.html" class="ml-1 mr-1">about</a> | 
         <a href="https://retro.hake.one" class="ml-1 mr-1">retro</a> | 
         <a href="https://mui.hake.one" class="ml-1 mr-1">mui</a> | 
-        <a href="https://github.com/enter-haken/book" class="ml-1 mr-1">github</a> | 
+        <a href="https://github.com/enter-haken/content" class="ml-1 mr-1">github</a> | 
         the source code on this site is covered by a <a href="/license.html" class="ml-1 mr-1">MIT license</a> | 
         content licenced with <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" class="ml-1 mr-1">CC BY-SA 4.0</a>
     </footer>
-
   </body>
 </html>
