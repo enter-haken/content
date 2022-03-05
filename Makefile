@@ -1,4 +1,4 @@
-.PHONY: build default serve all
+.PHONY: build default serve
 .ONESHELL:
 
 default: clean build 
@@ -16,5 +16,17 @@ clean:
 wait:
 	while true;
 	do inotifywait -re modify ./markdown;
-	make all;
+	make;
+	done;
+
+wait_template:
+	while true;
+	do inotifywait -e modify ./template/default.eex;
+	make;
+	done;
+
+wait_css:
+	while true;
+	do inotifywait -re modify ./css;
+	make;
 	done;

@@ -9,31 +9,48 @@
     <title><%= @title %></title>
   </head>
   <body>
-    <div class="sibl">
-      <%= for %{title: title, url: url, is_active: is_active} <- @siblings do %>
-        /
-        <%= if is_active do %>
-          <%= title %>
-        <% else %>
-          <a href="<%= url %>"><%= title %></a>
+    <div class="flex flex-col m-4">
+      <div class="m-4">
+        <%= for %{title: title, url: url, is_active: is_active} <- @siblings do %>
+          /
+          <%= if is_active do %>
+            <%= title %>
+          <% else %>
+            <a href="<%= url %>"><%= title %></a>
+          <% end %>
+        <% end %>
+      </div>
+
+      <div class="m-4">
+        <%= for %{title: title, url: url} <- @breadcrumb do %>
+          / <a href="<%= url %>"><%= title %></a>
+        <% end %>
+      </div>
+      <div class="m-4">
+      <%= @body %>
+      <%= if @should_generate_teasers do %>
+        <%= for %Static.Site{teaser: teaser, url: url} <- @siblings 
+          |> Enum.filter(fn %Static.Site{
+            is_active: is_active, 
+            teaser: possible_teaser
+          } -> not is_active and not is_nil(possible_teaser) end) do %>
+            <%= teaser %>
+            <p class="m-4">
+              <a href="<%= url %>">continue reading</a> 
+            <p>
         <% end %>
       <% end %>
+      </div>
     </div>
+    <footer class="flex flex-wrap text-xs">
+        created by Jan Frederik Hake |
+        <a href="/about.html" class="ml-1 mr-1">about</a> | 
+        <a href="https://retro.hake.one" class="ml-1 mr-1">retro</a> | 
+        <a href="https://mui.hake.one" class="ml-1 mr-1">mui</a> | 
+        <a href="https://github.com/enter-haken/book" class="ml-1 mr-1">github</a> | 
+        the source code on this site is covered by a <a href="/license.html" class="ml-1 mr-1">MIT license</a> | 
+        content licenced with <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" class="ml-1 mr-1">CC BY-SA 4.0</a>
+    </footer>
 
-    <div class="bread">
-      <%= for %{title: title, url: url} <- @breadcrumb do %>
-        / <a href="<%= url %>"><%= title %></a>
-      <% end %>
-    </div>
-    <%= @body %>
-    <%= if @should_generate_teasers do %>
-      <%= for %Static.Site{teaser: teaser, url: url} <- @siblings 
-          |> Enum.filter(fn %Static.Site{is_active: is_active} -> not is_active end) do %>
-          <%= teaser %>
-          <p>
-            <a href="<%= url %>">continue reading</a> 
-          <p>
-      <% end %>
-    <% end %>
   </body>
 </html>

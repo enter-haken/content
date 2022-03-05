@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-sans text-xl font-bold;
+  }
+
+  h2 {
+    @apply font-sans text-lg font-bold;
+  }
+
+  a {
+    @apply underline;
+  }
+
+  ul {
+    @apply mt-4 mb-4 ml-8 list-disc;
+  }
+
+  p {
+    @apply m-4;
+  }
+
+  pre {
+    @apply m-4;
+  }
+}
