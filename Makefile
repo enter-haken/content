@@ -1,9 +1,7 @@
 .PHONY: build default serve all
 .ONESHELL:
 
-default: all 
-
-all: clean build 
+default: clean build 
 
 build:
 	static --content-path ./markdown --output-path ./output --static-path ./static --template ./template/default.eex
@@ -20,4 +18,3 @@ wait:
 	do inotifywait -re modify ./markdown;
 	make all;
 	done;
-
