@@ -1,4 +1,4 @@
-# introduction
+# home 
 
 My name is Jan Frederik Hake.
 I am a software developer from Paderborn / Germany.

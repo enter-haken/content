@@ -3,12 +3,15 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply m-4;
+  }
   h1 {
-    @apply font-sans text-xl font-bold;
+    @apply mt-4 font-sans text-xl font-bold;
   }
 
   h2 {
-    @apply font-sans text-lg font-bold;
+    @apply mt-2 font-sans text-lg font-bold;
   }
 
   a {
@@ -20,10 +23,14 @@
   }
 
   p {
-    @apply m-4;
+    @apply mt-4;
   }
 
   pre {
-    @apply m-4;
+    @apply mt-4 overflow-x-auto;
+  }
+
+  img {
+    @apply object-contain;
   }
 }
