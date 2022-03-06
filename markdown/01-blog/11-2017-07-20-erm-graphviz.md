@@ -973,11 +973,13 @@ The complete script glued together
 I have put the result in a [external file][result] because the graph has become to big in size.
 Not so bad, I think.
 
-Update 2017-10-12: 
+**Update 2017-10-12:**
 
 I added a [schema.sh][schema] script to my [script collection][scripts].
 
+**Update 2022-03-05:**
 
+`schema.sh` has now it's [own repo][1]
 
 [ERM]: https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model
 [informationschema]: https://www.postgresql.org/docs/current/static/information-schema.html
@@ -989,3 +991,6 @@ I added a [schema.sh][schema] script to my [script collection][scripts].
 [result]: /images/schema.svg
 [schema]: https://github.com/enter-haken/scripts/blob/master/schema.sh
 [scripts]: https://github.com/enter-haken/scripts
+
+[1]: https://github.com/enter-haken/schema
+
