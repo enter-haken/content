@@ -39,6 +39,11 @@
       </div>
 
       <div class="mt-4">
+        <%= if not is_nil(@meta) do %>
+          <p>
+          <%= @meta.created_at |> Date.to_iso8601() %>
+          </p>
+        <% end %>
         <%= @body %>
         <%= if @should_generate_teasers do %>
           <%= for %Static.Site{teaser: teaser, url: url} <- @siblings 
