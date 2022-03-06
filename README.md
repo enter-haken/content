@@ -1,4 +1,6 @@
-# Static
+# Content 
+
+Blog sources for [hake.one](https://hake.one)
 
 ## requirements
 
