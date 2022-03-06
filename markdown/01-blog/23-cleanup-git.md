@@ -1,3 +1,7 @@
+---
+created_at: "2016-02-27"
+---
+
 # git cleanup
 
 After working over months with several developers on one repository, a little bit "tree care" is necessary. Usually old merged branches are deleted on server, when they are not needed any more. 

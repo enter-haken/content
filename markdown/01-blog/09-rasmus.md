@@ -1,3 +1,7 @@
+---
+created_at:  "2018-02-19"
+---
+
 # Alternative content management system approach
 
 In the last months, I had to manage a bigger Wordpress instance with many plugins installed.

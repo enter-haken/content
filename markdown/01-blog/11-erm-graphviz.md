@@ -1,3 +1,7 @@
+---
+created_at:  "2017-07-20"
+---
+
 # Generate a ERM from a PostgreSQL database schema
 
 Creating a [ERM][ERM] is one of the first tasks, when a database is designed.

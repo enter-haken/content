@@ -1,3 +1,7 @@
+---
+created_at: "2017-02-20"
+---
+
 # using pandoc filters to create graphs with hakyll
 
 When you want to convert one document format into an other, [Pandoc][1] is your friend. 

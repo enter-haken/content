@@ -1,3 +1,7 @@
+---
+created_at:  "2018-07-23"
+---
+
 # connect the dots 
 
 A few months ago, I [started a little project][rasmusPart1] named [rasmus][sources].

@@ -1,3 +1,7 @@
+---
+created_at:  "2020-05-11"
+---
+
 # brain
 
 When you develop software, you also have to look up things frequently.

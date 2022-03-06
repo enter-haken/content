@@ -1,3 +1,7 @@
+---
+created_at:  "2017-07-15"
+---
+
 # Working with immutable data in Postgres
 
 After taking a [first look][dbArchitecturePart1] at the JSON columns, let's look at a few possible applications.

@@ -1,3 +1,7 @@
+---
+created_at: "2016-03-25"
+---
+
 # minimum viable product 
 
 According to [User Story Mapping, 44ff ][2] there are several ways to grow a product. 

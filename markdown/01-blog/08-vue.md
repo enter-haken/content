@@ -1,3 +1,7 @@
+---
+created_at:  "2018-03-08"
+---
+
 # get in touch with vue
 
 I've been recently asked to build up a little `vue` example. 

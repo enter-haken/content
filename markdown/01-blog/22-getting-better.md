@@ -1,3 +1,7 @@
+---
+created_at: "2016-02-27"
+---
+
 # getting better
 
 When you think about programming, you will have writing code in mind.

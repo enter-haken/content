@@ -1,3 +1,7 @@
+---
+created_at: "2017-01-02"
+---
+
 # get in touch with react
 
 Last year I started a little web project for work.

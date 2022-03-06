@@ -1,3 +1,7 @@
+---
+created_at: "2017-06-28"
+---
+
 # providing test data for databases
 
 A few days ago, I did some experiments with PostgreSQL JSONB columns. 

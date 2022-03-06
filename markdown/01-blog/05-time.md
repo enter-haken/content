@@ -1,3 +1,7 @@
+---
+created_at:  "2018-08-07"
+---
+
 # time for money, money for time
 
 I have two kids, 16 and 20 years old.

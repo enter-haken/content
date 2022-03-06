@@ -1,3 +1,7 @@
+---
+created_at:  "2018-07-31"
+---
+
 # first steps with rasmus 
 
 Having the first parts of `rasmus` [in motion][rasmusPart2], I started my first tests.
