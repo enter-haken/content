@@ -5,9 +5,6 @@ Blog sources for [hake.one](https://hake.one)
 ## requirements
 
 * [static][1] 
-* tree ~ 2.0
-* graphviz ~> 2.40.1
-* python ~> 3.10
 
 ## build
 
@@ -30,8 +27,24 @@ $ make serve
 to start a web server.
 You can see the result under `http://localhost:8000`.
 
-# Contact
+## while editing
 
-[hake.one](https://hake.one). Jan Frederik Hake, <jan_hake@gmx.de>. [@enter_haken](https://twitter.com/enter_haken) on Twitter. [enter-haken#7260](https://discord.com) on discord.
+```
+$ make wait
+```
 
-[1]: http://github.com/enter-haken/static
+will listen to changes of `./markdown` and will **rebuild the whole site** on save.
+
+```
+$ make wait_template
+```
+
+will listen to changes of `./template/default.eex` and will **rebuild the whole site** on save.
+
+```
+$ make wait_css
+```
+
+will listen to changes of the `./css` folder and will **rebuild the whole site** on save.
+
+[1]: https://github.com/enter-haken/static
