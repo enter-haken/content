@@ -52,10 +52,21 @@ will listen to changes of the `./css` folder and will **rebuild the whole site**
 * check table formatting
 * padding of first line of a code block
 
-# write about 
+## write about 
 
 * nord theme across packages
 * terraform 
 * docker
+
+## Contact
+
+[hake.one](https://hake.one). Jan Frederik Hake, <jan_hake@gmx.de>. 
+[@enter_haken](https://twitter.com/enter_haken) on Twitter. 
+[enter-haken#7260](https://discord.com) on discord.
+
+[1]: https://hexdocs.pm/eex/EEx.html
+[2]: https://hexdocs.pm/mix/main/Mix.Tasks.Escript.Build.html
+[3]: https://hake.one
+[4]: https://github.com/enter-haken/content/blob/main/template/default.eex
 
 [1]: https://github.com/enter-haken/static
