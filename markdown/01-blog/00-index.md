@@ -2,7 +2,8 @@
 
 Every project starts with an idea.
 I use my blog for thinking out loud.
-Some of the ideas ends up with an article series.
+Some of the ideas ends up with **an article series**,
+others may leed to **new projects**.
 
 I startet my blog on [enter-haken.github.io][1] ([sources][2]).
 New content will be added only here.

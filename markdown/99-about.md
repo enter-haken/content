@@ -1,8 +1,8 @@
 # about
 
-Hi, my name is Jan Frederik Hake. I am a software developer from Paderborn / Germany.
+Hi, my name is **Jan Frederik Hake**. I am a software developer from Paderborn / Germany.
 
-This is my personal digital space, where I write about programming, infrastructure and own ideas.
+This is **my personal digital space**, where I write about **programming**, **infrastructure** and **own ideas**.
 
 # Send me a message
 

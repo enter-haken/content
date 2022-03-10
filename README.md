@@ -47,4 +47,15 @@ $ make wait_css
 
 will listen to changes of the `./css` folder and will **rebuild the whole site** on save.
 
+## known issues with the template
+
+* check table formatting
+* padding of first line of a code block
+
+# write about 
+
+* nord theme across packages
+* terraform 
+* docker
+
 [1]: https://github.com/enter-haken/static

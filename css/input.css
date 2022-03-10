@@ -33,4 +33,12 @@
   img {
     @apply object-contain;
   }
+
+  code {
+    @apply px-1 py-1 bg-gray-100;
+  }
+
+  pre {
+    @apply px-1 py-1 bg-gray-100;
+  }
 }

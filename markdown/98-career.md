@@ -1,9 +1,9 @@
 # work experience
 
-I am working as a professional developer since 2008.
-During the last years, I got in touch with a lot of different technolgies.
+I am working **as a professional developer since 2008**.
+During the last years, I got in touch with a lot of **different technolgies**.
 
-You can take a look at my recent projects, I was working on.
+You can take a look at my **recent projects**, I was working on.
 
 <!--more-->
 
